@@ -1,2 +1,2 @@
 # myProject
-springboot 练手项目
+taotao-portal-web:springboot 练手项目
