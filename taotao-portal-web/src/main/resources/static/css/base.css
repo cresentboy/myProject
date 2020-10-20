@@ -1,0 +1,543 @@
+/* 
+    通用的css 我们放在base里面
+    用作头部 和底部的 通用css文件
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f6f6f6;
+}
+h1{
+    margin: 0;
+}
+
+/* 阿里巴巴矢量图导入 */
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('/fonts/ficonfont.eot');
+    src: url('/fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff2') format('woff2'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+/* 阿里巴巴矢量图初始化  */
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* 去除所有的button 和input边框 */
+input,button{
+    border: 0px;
+}
+
+/* 所有的a标签 去除下划线 */
+
+a {
+    text-decoration: none;
+}
+
+/* 所有的li标签去除前面的点 */
+
+li {
+    list-style: none;
+}
+
+/* 京东头部logo div样式 */
+
+.J_event {
+    height: 80px;
+    background-color: #000;
+}
+
+/* 京东的页面 版心都在这里 */
+
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* 京东头部logo div下的a标签 设置高度 */
+
+.J_event a {
+    display: block;
+    height: 80px;
+    position: relative;
+    background: url("../images/top.jpg") no-repeat center center;
+}
+
+/* 京东头部logo div下的a标签下的 i标签 样式 */
+
+.J_event i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .4);
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+/* 京东快捷导航栏 样式 */
+
+.shortcut {
+    height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+    font-size: 12px;
+    color: #9D9D9D;
+}
+
+/* 京东快捷导航栏 左边 的 文字标签样式 */
+
+.shortcut .fl i {
+    margin-left: 200px;
+    color: #f10215;
+}
+
+/* 左浮动 */
+
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+
+.fr {
+    float: right;
+}
+
+/* 京东快捷导航栏 右边 li标签样式 */
+
+.shortcut .fr li {
+    float: left;
+}
+
+/* 京东快捷导航栏 右边 li里面的a标签样式 */
+
+.shortcut .fr li a {
+    color: #9D9D9D;
+}
+
+/* 京东快捷导航栏 右边 li里面的a标签鼠标悬浮的样式  */
+
+.shortcut .fr li a:hover {
+    color: #c81623;
+}
+/* 京东快捷导航栏 右边 中间的分割线样式 */
+.shortcut .spacer{
+    margin: 11px 5px 0px;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+/* 京东快捷导航栏 右边 向下箭头的div盒子 */
+.dropdown{
+    padding-right: 15px;
+    position: relative;
+}
+/* 京东快捷导航栏 右边 向下箭头*/
+.dropdown i{
+    position: absolute;
+    right: -2px;
+}
+/* 设置背景颜色 为最高级别 */
+.style-red{
+    color: #c81623!important;
+}
+/* 京东头部 大div */
+.header{
+    height: 139px;
+    background-color: #fff;
+}
+/* 京东头部 版心的 高度 */
+.inner{
+    height: 139px;
+    position: relative;
+}  
+/* 京东头部 logo div大小 */
+.logo{
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    top: -30px;
+    box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+}
+/* 京东头部 logo a标签样式 */
+.logo a{
+    display: block;
+    width: 190px;
+    height: 170px;
+    text-indent: -999px;
+    background: url("../images/logo.jpg") no-repeat center center;
+}
+/* 京东头部 底部的导航栏 */
+.navitems{
+    height: 40px;
+    padding-top: 20px;
+    left: 200px;
+    bottom: 0px;
+    line-height: 40px;
+    position: absolute;
+}
+/* 京东头部 底部的导航栏 里面的li标签样式 */
+.navitems li{
+    float: left;
+}  
+/* 京东头部 底部的导航栏 里面的li标签 里面的 a标签 样式 */
+.navitems li a{
+    display: block;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 11px;
+    color: #333;
+}
+/*京东头部 底部的导航栏 里面的li标签 里面的 a标签鼠标悬浮状态样式  */
+.navitems li a:hover{
+    color: #c81623;
+}
+/*京东头部 底部的导航栏 里面的li标签 里面的 a标签加粗效果样式  */
+.cu{
+    font-weight: 700;
+}
+/* 京东头部 搜索框  */
+.search{
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    left: 320px;
+    top: 25px;
+}
+/* 京东头部 搜索框 input输入框 */
+.search input{
+    width: 488px;
+    height: 33px;
+    color: #989898;
+    border: 1px solid #F10215;
+    float: left;
+    padding-left: 10px;
+    outline: none;
+
+}
+/* 京东头部 搜索框 按钮 */
+.search button{
+    width: 50px;
+    height: 35px;
+    float: left;
+    color: #fff;
+    background-color: #E1251B;
+    cursor: pointer;
+}
+/* 京东头部 搜索框 按钮悬浮 */
+.search button:hover{
+    background-color: #C81623;
+}
+/* 京东头部 搜索框 照相机 */
+.search>i{
+   position: absolute;
+   font-size: 20px;
+   right: 60px;
+   top: 5px; 
+   cursor: pointer;
+}
+/* 京东头部 搜索框 照相机悬浮 */
+.search>i:hover{
+    color: #E1251B;
+}
+/* 京东热词部分 */
+.hotwords{
+    position: absolute;
+    left: 320px;
+    top: 70px;
+}
+/* 京东热词li标签 */
+.hotwords li{
+    float: left;
+    margin-right: 10px;
+}
+/* 京东热词 li标签里面的a标签 */
+.hotwords li a{
+   font-size: 12px;
+   color: #9E9B99;
+}
+/* 京东热词 li标签里面的a标签悬浮 */
+.hotwords li a:hover{
+    color: #E1251B;
+}
+/* 京东 电脑促销 */
+.computer{
+    width: 190px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+/* 京东电脑促销 a标签背景图 */
+.computer a{
+    display: block;
+    width: 190px;
+    height: 40px;
+    background: url("../images/computer.jpg") no-repeat center center;
+}
+/* 京东头部 购物车 */
+.mycart{
+    width: 188px;
+    height: 33px;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 25px;
+    text-align: center;
+    line-height: 33px;
+    right: 100px;
+}
+/* 京东头部 购物车悬浮 */
+.mycart:hover{
+    border: 1px solid #C81623;
+}
+/* 购物车图标 */
+.mycart i{
+    margin-right: 2px;
+    color: #c81623!important;
+}
+/* 京东头部 购物车 a标签 */
+.mycart a{
+    font-size: 12px;
+    color: #E1251B;
+}
+/* 京东头部 购物车 数量图标*/
+.mycart s{
+    font-size: 12px;
+    text-decoration: none;
+    position: absolute;
+    left: 63px;
+    height: 16px;
+    top: 1px;
+    background-color:#E1251B;
+    padding: 0px 5px;
+    line-height: 16px;
+    border-radius: 8px;
+    color: #fff;
+}
+/* 京东底部大div  */
+.J_footer{
+    height: 568px;
+}
+/* 京东底部 多快好省 div */
+.footer{
+    padding: 30px 0px;
+    border-bottom: 1px solid #dedede;
+}
+/* 京东底部 多快好省 ul */
+.footer ul{
+    height: 42px;
+}
+/* 京东底部 多快好省 ul下面的li */
+.footer ul li{
+    float: left;
+    width: 279px;
+}
+/* 京东底部 多快好省 ul下面的li下面的div */
+.footer ul li div{
+    width: 225px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.duo{
+    position: absolute;
+    text-indent: -999998px;
+    width: 36px;
+    height: 42px;
+    background: url("../images/footer.png") no-repeat 0px -192px;
+}
+.kuai{
+    position: absolute;
+    text-indent: -999px;
+    width: 36px;
+    height: 42px;
+    background: url("../images/footer.png") no-repeat -41px -192px;
+}
+.hao{
+    position: absolute;
+    text-indent: -9999999px;
+    width: 36px;
+    height: 42px;
+    background: url("../images/footer.png") no-repeat -82px -192px;
+}
+.sheng{
+    position: absolute;
+    text-indent: -9999px;
+    width: 36px;
+    height: 42px;
+    background: url("../images/footer.png") no-repeat -123px -192px;
+}
+
+.footer ul li div p{
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444;
+    margin-left: 45px;
+}
+/* 京东底部 帮助 */
+.help{
+    padding: 20px 0px;
+}
+/* 京东底部 帮助的高度 */
+.help_inner{
+    height: 160px;
+}
+.help_inner div{
+    float: left;
+    width: 198px;
+}
+/* 京东底部 帮助的h5 */
+.help_inner H5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 5px;
+}
+.help_inner ul li{
+    height: 23px;
+    line-height: 23px;
+   
+}
+.help_inner ul li a{
+    color: #727272;
+    font-size: 12px;
+}
+.help_inner ul li a:hover{
+    color: #E1251B;
+}   
+.zhongguo{
+    width: 206px;
+    height: 154px;
+    background: url("../images/footer.png") no-repeat 0px 0px;
+}
+.zhongguo p{
+    color: #666;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+.zhongguo a{
+    color: #727272;
+    font-size: 12px;
+
+}
+.zhongguo a:hover{
+    color: #E1251B;  
+}
+.copyright_inner{
+    padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+.copyright_inner a{
+    color: #666;
+    font-size: 10px;
+}
+.copyright_inner span{
+    color: #ccc;
+    margin: 0px 2px;
+}
+.copyright_inner a:hover{
+    color: #f10215;
+}
+.copyright_info{
+    padding: 10px 0;
+    line-height: 22px;
+    color: #999;
+    font-size: 12px;
+}
+.copyright_info span{
+    color: #999;
+    margin: 0px 7px;
+    font-size: 12px;
+}
+.copyright_info a{
+    color: #999;
+}
+.copyright_inter{
+    height: 22px;
+    line-height: 22px;
+}
+.copyright_inter .gs{
+    display:inline-block;
+    width: 15px;
+    height: 14px;
+    vertical-align:-3px;
+    background: url("../images/footer.png") no-repeat -108px -155px;
+}
+.copyright_inter .cp{
+    display:inline-block;
+    width: 15px;
+    height: 14px;
+    vertical-align:-3px;
+    background: url("../images/footer.png") no-repeat -168px -155px;
+}
+.copyright_inter .si{
+    display:inline-block;
+    width: 15px;
+    height: 14px;
+    vertical-align:-5px;
+    background: url("../images/footer.png") no-repeat -148px -155px;
+}
+.copyright_inter .se{
+    display:inline-block;
+    width: 15px;
+    height: 14px;
+    vertical-align:-3px;
+    background: url("../images/footer.png") no-repeat -128px -155px;
+}
+.copyright_inter .kanbudong{
+    display:inline-block;
+    width: 15px;
+    height: 14px;
+    vertical-align:-3px;
+    background: url("../images/footer.png") no-repeat -108px -175px;
+}
+.copyright_inter a{
+    line-height: 22px;
+    text-align: center;
+}
+.copyright_inter .copyright_info_a{
+    font-size: 12px;
+    color: #999;
+}
+.copyright_auth{
+    margin: 25px 0px;
+}
+.copyright_auth a{
+    display:inline-block;
+    width: 102px;
+    height: 31px;
+
+}
+.a1{
+    background: url("../images/footer.png") no-repeat -206px 0px;
+}
+.a2{
+    background: url("../images/footer.png") no-repeat -206px -38px;
+}
+.a3{
+    background: url("../images/footer.png") no-repeat -206px -76px;
+}
+.a4{
+    background: url("../images/footer.png") no-repeat -206px -114px;
+}
+.a5{
+    background: url("../images/footer.png") no-repeat -206px -152px;
+}

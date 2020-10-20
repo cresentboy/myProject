@@ -1,0 +1,236 @@
+#search_body{
+    background: #fff;
+}
+.search_inner{
+    height: 87px;
+    position: relative;
+}
+#J_footer{
+    background: #EAEAEA;
+}
+#postion_addr{
+    margin-left: 0px;
+    color: #f10215;
+}
+.search_inner_logo{
+    position: absolute;
+    z-index: 12;
+    text-indent: -9999999px;
+    float: left;
+    width: 276px;
+    height: 50px;
+    margin: 15px 0 22px;
+}
+.search_inner_logo a{
+    display: block;
+    width: 134px;
+    height: 42px;
+    background: url("../images/jdlogo.png") no-repeat 0 0;
+}
+.shop-head>img{
+    margin-top: 20px;
+    width: 100%;
+}
+.crumb-wrap{
+    height: 44px;
+    background-color: #f2f2f2;
+}
+.crumb-wrap ul{
+    width: 850px;
+    height: 44px;
+    line-height: 44px;
+}
+.crumb-wrap ul li{
+    float: left;
+}
+.crumb-wrap ul li a{
+    font-size: 12px;
+    color: #666;
+}
+.crumb-wrap ul li a:hover{
+    color: #f30213;
+}
+.sep{
+    padding: 0px 10px;
+}
+.product-intro{
+    height: 580px;
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}
+.preview-wrap{
+    width: 450px;
+    height: 568px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.preview{
+    width: 730px;
+    height: 633px;
+    position: absolute;
+    left: 450px;
+    top:0px;
+}
+#exzoom {
+    width: 400px;
+    margin: 10px 0px;
+}
+.preview>p{
+    font-weight: 700;
+    color: #666;
+    height: 40px;
+    line-height: 28px;
+    margin: 10px 0px 0px;
+    font-size: 16px;
+}
+.sellPointSapn{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #e4393c;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.summary-price-wrap{
+    height: 80px;
+    margin-top: 30px;
+    background: #F3F3F3;
+}
+.summary-price{
+    height: 21px;
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+.dt{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: simsun;
+    color: #999;
+}
+.dd{
+    display: inline-block;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    font-weight: 700;
+}
+.notice{
+    font-size: 12px;
+    font-weight: 400;
+}
+.choose-btns{
+    width: 220px;
+    height: 46px;
+}
+.choose-amount{
+    width: 58px;
+    height: 44px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+    left: 0px;
+    margin-right: 10px;
+    float: left;
+}
+.choose-amount>input{
+    display: block;
+    width: 43px;
+    height: 42px;
+    line-height: 42px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    border: none;
+    border: 0;
+    text-align: center;
+}
+.btn-reduce{
+    display: block;
+    width: 15px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    background: #f1f1f1;
+    color: #666;
+    position: absolute;
+    bottom: 0px;
+    right: -1px;
+    border: 1px solid #ccc;
+}
+.btn-add{
+    display: block;
+    width: 15px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    background: #f1f1f1;
+    color: #666;
+    position: absolute;
+    right: -1px;
+    border: 1px solid #ccc;
+}
+.itemCart{
+    display: inline-block;
+    width: 90px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 26px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    background: #f30213;
+    font-family: "microsoft yahei";
+}
+.fittings{
+    width: 1190px;
+    margin: 0 auto;
+}
+.ETab{
+    width: 1190px;
+    margin: 0 auto;
+}
+.tab {
+    width: 1190px;
+    margin: 30px auto;
+}
+
+.tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab_list .tab_current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.item_info {
+    padding: 20px 0 0 20px;
+}
+
+.tab_item {
+    display: none;
+}
+.tab_item *{
+    width: 750px;
+    margin: 0 auto;
+}
+#paramTable{
+    margin-top: 20px;
+}
